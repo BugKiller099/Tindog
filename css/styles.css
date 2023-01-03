@@ -27,15 +27,22 @@
     z-index: 1;
     
 }
-h1
+body{
+    font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6
 {
     font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 h2{
-    font-family: "Montserrat", sans-serif;
+    
     font-size:3.0rem;
+    line-height: 1.5;
+}
+/* heading */
+.big-heading
+{
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 .container-fluid
@@ -43,9 +50,6 @@ h2{
     padding: 10% 20% 0% 20%;
     position: relative;
     z-index: -30;
-}
-body{
-    font-family: "Montserrat";
 }
 /* image */
 .title-img
